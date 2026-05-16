@@ -12,8 +12,8 @@ run_worker_first = true
 [vars]
 PREFIX = "tmp"
 
-DEFAULT_DOMAINS = ["echoways.org"]
-DOMAINS = ["echoways.org"]
+DEFAULT_DOMAINS = ["echoways.org", "edu.echoways.org"]
+DOMAINS = ["echoways.org", "edu.echoways.org"]
 
 JWT_SECRET = "echoways-7f6b9c2a-5d81-4b98-9d25-random-20260516"
 
