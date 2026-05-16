@@ -1,0 +1,18 @@
+name = "cloudflare-tempemail"
+main = "src/worker.ts"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+keep_vars = true
+
+[vars]
+PREFIX = "tmp"
+DEFAULT_DOMAINS = ["你的域名.com"]
+DOMAINS = ["你的域名.com"]
+JWT_SECRET = "这里填一串随机密钥"
+ENABLE_USER_CREATE_EMAIL = true
+ENABLE_USER_DELETE_EMAIL = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "你的D1数据库名"
+database_id = "你的D1数据库ID"
