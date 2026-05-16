@@ -6,13 +6,19 @@ keep_vars = true
 
 [vars]
 PREFIX = "tmp"
-DEFAULT_DOMAINS = ["你的域名.com"]
-DOMAINS = ["你的域名.com"]
-JWT_SECRET = "这里填一串随机密钥"
+
+DEFAULT_DOMAINS = ["echoways.org"]
+DOMAINS = ["echoways.org"]
+
+JWT_SECRET = "echoways-temp-mail-2026-05-16-random-secret-change-later"
+
 ENABLE_USER_CREATE_EMAIL = true
 ENABLE_USER_DELETE_EMAIL = true
+ENABLE_AUTO_REPLY = false
+
+BLACK_LIST = ""
 
 [[d1_databases]]
 binding = "DB"
-database_name = "你的D1数据库名"
-database_id = "你的D1数据库ID"
+database_name = "cloudtempmail"
+database_id = "174ed722-1e20-4633-adf5-197410483ef0"
