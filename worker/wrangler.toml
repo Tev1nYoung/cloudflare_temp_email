@@ -12,6 +12,8 @@ DOMAINS = ["echoways.org"]
 
 JWT_SECRET = "echoways-temp-mail-2026-05-16-random-secret-change-later"
 
+ADMIN_PASSWORDS = ["QAZwsx963"]
+
 ENABLE_USER_CREATE_EMAIL = true
 ENABLE_USER_DELETE_EMAIL = true
 ENABLE_AUTO_REPLY = false
