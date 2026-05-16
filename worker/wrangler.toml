@@ -4,13 +4,18 @@ compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
 keep_vars = true
 
+[assets]
+directory = "../frontend/dist/"
+binding = "ASSETS"
+run_worker_first = true
+
 [vars]
 PREFIX = "tmp"
 
 DEFAULT_DOMAINS = ["echoways.org"]
 DOMAINS = ["echoways.org"]
 
-JWT_SECRET = "echoways-temp-mail-2026-05-16-random-secret-change-later"
+JWT_SECRET = "echoways-7f6b9c2a-5d81-4b98-9d25-random-20260516"
 
 ADMIN_PASSWORDS = ["QAZwsx963"]
 
